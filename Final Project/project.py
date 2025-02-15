@@ -78,6 +78,8 @@ def calculate_calories(input):
     total_calories = base_metabolic_rate * activity
 
     print(f'Your daily calories to maintain weight are: {int(total_calories)} kcals')
+
+    input()
     
 
        

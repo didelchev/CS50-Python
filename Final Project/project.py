@@ -4,6 +4,9 @@
 # [x] Option to gain weight 
 # [x] Option to maintain weight
 
+import sys
+
+
 
 def main():
     user_data = get_user_input()
@@ -77,10 +80,9 @@ def get_user_input():
                 'activity': activity }
 
 
-        
-        
     except ValueError:
-        print('Invalid input !')
+        sys.exit('Invalid input !')
+        
 
 
 def maintain_weight(user_data):
